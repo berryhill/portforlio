@@ -8,14 +8,15 @@ var Main = React.createClass({
         {this.props.children}
         <div>
           <p>
-            matthewberryhill@gmail.com &nbsp;| &nbsp;
+            <a href="mailto:matthewberryhill@gmail.com">matthewberryhill@gmail.com</a>
+            &nbsp; | &nbsp;
             <a href="https://www.linkedin.com/in/matthew-berryhill-0b86a22a">LinkedIn</a>
             &nbsp; | &nbsp;
             <a href="http://www.github.com/berryhill">Github</a>
           </p>
           <p2>
-            This portforlio is created in ReactJS, you can find the code&nbsp;
-            <a href="http://www.gibhub.com">here</a>
+            This portfolio is created in ReactJS, you can find the code&nbsp;
+            <a href="https://github.com/berryhill/portforlio">here</a>
           </p2>
         </div>
       </MainWrapper>

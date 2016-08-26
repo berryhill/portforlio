@@ -10,13 +10,13 @@ var Home = React.createClass({
     return (
       <MainWrapper>
         <h2>
-          My name is ..
+          &nbsp; My name is ..
         </h2>
         <h1>
           Matthew Berryhill
         </h1>
         <h2>
-          .. and I am a Creator
+          .. and I am a Creator &nbsp;
         </h2>
         <div>
           <Link to='/'>
