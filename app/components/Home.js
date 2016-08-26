@@ -1,15 +1,19 @@
 var React = require('react');
 var ReactRouter = require('react-router');
+var styles = require('../styles');
 var MainWrapper = require('./MainWrapper');
-var ContinueButton = require('./ContinueButton')
+var ContinueButton = require('./ContinueButton');
 var Link = ReactRouter.Link;
 
 var Home = React.createClass({
   render: function () {
     return (
       <MainWrapper>
+        <h2>
+          My name is ..
+        </h2>
         <h1>
-          My name is Matthew Berryhill
+          Matthew Berryhill
         </h1>
         <h2>
           .. and I am a Creator
