@@ -1,17 +1,25 @@
 var React = require('react');
 var ReactRouter = require('react-router');
-var MainContainer = require('../containers/MainContainer');
+var MainWrapper = require('./MainWrapper');
+var ContinueButton = require('./ContinueButton')
+var Link = ReactRouter.Link;
 
 var Home = React.createClass({
   render: function () {
     return (
-      <MainContainer>
-        <h1>Github Battle</h1>
-        <p className='lead'>May the Battle of the Hubs COMMENCE!</p>
-        <Link to='/playerOne'>
-          <button type='button' className='btn btn-lg btn-success'>Get Started</button>
-        </Link>
-      </MainContainer>
+      <MainWrapper>
+        <h1>
+          My name is Matthew Berryhill
+        </h1>
+        <h2>
+          .. and I am a Creator
+        </h2>
+        <div>
+          <Link to='/'>
+            <ContinueButton />
+          </Link>
+        </div>
+      </MainWrapper>
     )
   }
 });
