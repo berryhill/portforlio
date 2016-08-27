@@ -3,7 +3,38 @@ var styles = {
     background: 'transparent'
   },
   space: {
-    marginTop: '40px'
+    marginTop: '20px',
+    marginLeft: '10px',
+    marginRight: '10px',
+    marginBottom: '20px',
+  },
+  back: {
+    background: 'light-grey',
+    border: 0,
+    borderRadius: 4,
+    color: 'white',
+    padding: '0.5em',
+    width: '8.0em',
+    ':hover': {
+        backgroundColor: 'red'
+      },
+    ':active': {
+        backgroundColor: 'yellow'
+      },
+  },
+  continue: {
+    background: 'light-grey',
+    border: 0,
+    borderRadius: 4,
+    color: 'white',
+    padding: '0.5em',
+    width: '8.0em',
+    ':hover': {
+        backgroundColor: 'blue'
+      },
+    ':active': {
+        backgroundColor: 'yellow'
+      },
   }
 };
 

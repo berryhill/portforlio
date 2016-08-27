@@ -19,7 +19,7 @@ var Home = React.createClass({
           .. and I am a Creator &nbsp;
         </h2>
         <div>
-          <Link to='/'>
+          <Link to='/intro'>
             <ContinueButton />
           </Link>
         </div>
