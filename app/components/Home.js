@@ -13,7 +13,7 @@ var Home = React.createClass({
           Pinnapple Workshops
         </h1>
         <h2>
-          Select Shop &nbsp;
+          Select Shop
         </h2>
         <div>
           <Link to='/print_shop'>

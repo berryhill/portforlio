@@ -3,6 +3,7 @@ var ReactRouter = require('react-router');
 var PropTypes = React.PropTypes;
 var MainWrapper = require('./MainWrapper');
 var SubmitPrintButton = require('./SubmitPrintButton');
+var StartPrintButton = require('./StartPrintButton');
 var Link = ReactRouter.Link;
 
 function PrintShop (props) {
@@ -18,15 +19,26 @@ function PrintShop (props) {
     // }
     return ( // need to promisify here
         <MainWrapper>
-            <h1>3D Print Shop</h1>
             <h2>
-                Start Print
+                Welcome to the Print Shop
             </h2>
+
             <div>
-                <Link to='/intro'>
-                    <SubmitPrintButton />
+                <Link to='/print_shop'>
+                    <StartPrintButton />
                 </Link>
             </div>
+
+            {/*<input type='text' ref='username' className="form-control" placeholder='Username'/>*/}
+            {/*<input type='password' ref='password' className="form-control" placeholder='Password'/>*/}
+            {/*/!*<button onClick={(event) => this.handleClick(event)} className="btn btn-primary">*!/*/}
+                {/*/!*Login*!/*/}
+            {/*/!*</button>*!/*/}
+            {/*<div>*/}
+                {/*<Link to='/print_shop'>*/}
+                    {/*<SubmitPrintButton onClick={(event) => this.handleClick(event)} className="btn btn-primary"/>*/}
+                {/*</Link>*/}
+            {/*</div>*/}
         </MainWrapper>
     )
 }

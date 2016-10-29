@@ -8,11 +8,7 @@ var Main = React.createClass({
         {this.props.children}
         <div>
           <p>
-            <a href="mailto:pinnappleworkshops@gmail.com">pinnappleworkshops@gmail.com</a>
-            {/*&nbsp; | &nbsp;*/}
-            {/*<a target="_blank" href="https://www.linkedin.com/in/matthew-berryhill-0b86a22a">LinkedIn</a>*/}
-            {/*&nbsp; | &nbsp;*/}
-            {/*<a target="_blank" href="http://www.github.com/berryhill">Github</a>*/}
+            <a href="mailto:pinnappleworkshops@gmail.com">PinnappleWorkshops@gmail.com</a>
           </p>
         </div>
       </MainWrapper>
