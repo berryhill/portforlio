@@ -2,14 +2,14 @@ var React = require('react');
 var Radium = require('radium');
 var styles = require('../styles');
 
-var ContinueButton = React.createClass({
+var PrintShopButton = React.createClass({
   render: function () {
     return (
       <button style={[styles.continue, styles.space]}>
-        Continue
+        3D Print Shop
       </button>
     )
   }
 });
 
-module.exports = Radium(ContinueButton);
+module.exports = Radium(PrintShopButton);

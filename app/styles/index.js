@@ -9,7 +9,7 @@ var styles = {
     marginBottom: '20px',
   },
   back: {
-    background: 'light-grey',
+    background: 'grey',
     border: 0,
     borderRadius: 4,
     color: 'white',
@@ -23,7 +23,7 @@ var styles = {
       },
   },
   continue: {
-    background: 'light-grey',
+    background: 'grey',
     border: 0,
     borderRadius: 4,
     color: 'white',

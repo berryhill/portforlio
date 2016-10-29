@@ -2,25 +2,22 @@ var React = require('react');
 var ReactRouter = require('react-router');
 var styles = require('../styles');
 var MainWrapper = require('./MainWrapper');
-var ContinueButton = require('./ContinueButton');
+var PrintShopButton = require('./PrintShopButton');
 var Link = ReactRouter.Link;
 
 var Home = React.createClass({
   render: function () {
     return (
       <MainWrapper>
-        <h2>
-          &nbsp; My name is ..
-        </h2>
         <h1>
-          Matthew Berryhill
+          Pinnapple Workshops
         </h1>
         <h2>
-          .. and I am a Creator &nbsp;
+          Select Shop &nbsp;
         </h2>
         <div>
-          <Link to='/intro'>
-            <ContinueButton />
+          <Link to='/print_shop'>
+            <PrintShopButton />
           </Link>
         </div>
       </MainWrapper>

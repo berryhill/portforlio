@@ -3,7 +3,7 @@ var ReactRouter = require('react-router');
 var PropTypes = React.PropTypes;
 var transparentBg = require('../styles').transparentBg;
 var MainWrapper = require('./MainWrapper');
-var ContinueButton = require('./ContinueButton');
+var ContinueButton = require('./PrintShopButton');
 var BackButton = require('./BackButton');
 var Link = ReactRouter.Link;
 
