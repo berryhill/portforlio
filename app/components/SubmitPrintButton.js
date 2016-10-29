@@ -2,14 +2,14 @@ var React = require('react');
 var Radium = require('radium');
 var styles = require('../styles');
 
-var BackButton = React.createClass ({
+var SubmitPrintButton = React.createClass ({
   render: function () {
     return (
       <button style={[styles.back, styles.space]}>
-        Back
+        Submit Print
       </button>
     )
   }
 });
 
-module.exports = Radium(BackButton);
+module.exports = Radium(SubmitPrintButton);

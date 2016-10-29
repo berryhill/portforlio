@@ -1,5 +1,5 @@
 var React = require('react');
-var Intro = require('../components/PrintShop');
+var PrintShop = require('../components/PrintShop');
 
 var PrintShopContainer = React.createClass({
     getInitialState: function () {
@@ -14,7 +14,7 @@ var PrintShopContainer = React.createClass({
     },
     render: function () {
         return (
-            <Intro
+            <PrintShop
                 isLoading={this.state.isLoading}
                 header={this.props.route.header}
             />
